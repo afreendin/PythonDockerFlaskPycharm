@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/PythonDockerFlaskPycharm.iml" filepath="$PROJECT_DIR$/.idea/PythonDockerFlaskPycharm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hw_PythonDockerFlaskPycharm/.idea/hw_PythonDockerFlaskPycharm.iml" filepath="$PROJECT_DIR$/../hw_PythonDockerFlaskPycharm/.idea/hw_PythonDockerFlaskPycharm.iml" />
+    </modules>
+  </component>
+</project>
