@@ -2,17 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e593a9ea-4427-44d8-a3ff-a2210c85ac46" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/init.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PythonDockerFlaskPycharm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PythonDockerFlaskPycharm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - citiesData@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -31,9 +49,74 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlserver&#10;mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hw_PythonDockerFlaskPycharm" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="Docker" />
+  </component>
+  <component name="RunManager" selected="Docker.PythonDockerFlaskPycharm">
+    <configuration name="PythonDockerFlaskPycharm" type="docker-deploy" factoryName="docker-compose.yml" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="removeVolumesOnComposeDown" value="true" />
+          <option name="commandLineOptions" value="--build" />
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed (1)" type="docker-deploy" factoryName="docker-compose.yml" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed (2)" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="buildCliOptions" value="" />
+          <option name="command" value="" />
+          <option name="containerName" value="" />
+          <option name="entrypoint" value="" />
+          <option name="imageTag" value="" />
+          <option name="commandLineOptions" value="" />
+          <option name="sourceFilePath" value="" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed" type="docker-deploy" factoryName="docker-compose.yml" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Docker.Unnamed (2)" />
+      <item itemvalue="Docker.Unnamed (1)" />
+      <item itemvalue="Docker.Unnamed" />
+      <item itemvalue="Docker.PythonDockerFlaskPycharm" />
+    </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:MySQL - citiesData@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -45,7 +128,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586207293056</updated>
-      <workItem from="1586207295258" duration="665000" />
+      <workItem from="1586207295258" duration="10292000" />
+      <workItem from="1586632445792" duration="4618000" />
+      <workItem from="1586717114294" duration="4834000" />
     </task>
     <task id="LOCAL-00001" summary="Created gitignore and docker-compose file">
       <created>1586207464989</created>
@@ -54,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586207464989</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added app file, dockerfile and requiremnts file">
+      <created>1586208102615</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586208102615</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -62,16 +154,69 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created gitignore and docker-compose file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created gitignore and docker-compose file" />
+    <MESSAGE value="Added app file, dockerfile and requiremnts file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added app file, dockerfile and requiremnts file" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="307" y="0" key="CommitChangelistDialog2" timestamp="1586207460507">
+    <state x="275" y="25" key="#Notifications" timestamp="1586209305496">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="307" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1586207460507" />
-    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1586207325270">
+    <state x="275" y="25" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1586209305496" />
+    <state x="275" y="25" key="#SQL_Dialects" timestamp="1586208311507">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1586207325270" />
+    <state x="275" y="25" key="#SQL_Dialects/0.0.1366.728@0.0.1366.728" timestamp="1586208311507" />
+    <state x="275" y="25" key="#SQL_Resolution_Scopes" timestamp="1586210749446">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="25" key="#SQL_Resolution_Scopes/0.0.1366.728@0.0.1366.728" timestamp="1586210749446" />
+    <state x="290" y="6" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586722939454">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="290" y="6" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1586722939454" />
+    <state x="307" y="0" key="CommitChangelistDialog2" timestamp="1586208098979">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="307" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1586208098979" />
+    <state x="581" y="253" key="DockerComposeFileDialog" timestamp="1586211031322">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="581" y="253" key="DockerComposeFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1586211031322" />
+    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1586628855846">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1586628855846" />
+    <state width="905" height="179" key="GridCell.Tab.0.bottom" timestamp="1586718648340">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586718648340" />
+    <state width="905" height="179" key="GridCell.Tab.0.center" timestamp="1586718648340">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586718648340" />
+    <state width="905" height="179" key="GridCell.Tab.0.left" timestamp="1586718648339">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586718648339" />
+    <state width="905" height="179" key="GridCell.Tab.0.right" timestamp="1586718648340">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586718648340" />
+    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1586719332661">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1366.728@0.0.1366.728" timestamp="1586719332661" />
+    <state x="186" y="9" key="SettingsEditor" timestamp="1586632916908">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="186" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1586632916908" />
+    <state x="399" y="14" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1586210837666">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="399" y="14" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1586210837666" />
+    <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1586717113081">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="391" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1586717113081" />
   </component>
 </project>
