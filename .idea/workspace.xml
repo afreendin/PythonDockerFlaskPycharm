@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e593a9ea-4427-44d8-a3ff-a2210c85ac46" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/screenshots/citiesData.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/json_data_webapp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/postman_output.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/app/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/init.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db/init.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +175,7 @@
       <workItem from="1587323890126" duration="14633000" />
       <workItem from="1587386811816" duration="2048000" />
       <workItem from="1587396899272" duration="171000" />
-      <workItem from="1587398304158" duration="14619000" />
+      <workItem from="1587398304158" duration="15942000" />
     </task>
     <task id="LOCAL-00001" summary="Created gitignore and docker-compose file">
       <created>1586207464989</created>
@@ -203,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586722994822</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="CitiesData table and JSON output on webapp are added to screenshot">
+      <created>1587421385479</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1587421385479</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,7 +215,8 @@
     <MESSAGE value="Created gitignore and docker-compose file" />
     <MESSAGE value="Added app file, dockerfile and requiremnts file" />
     <MESSAGE value="Added database" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added database" />
+    <MESSAGE value="CitiesData table and JSON output on webapp are added to screenshot" />
+    <option name="LAST_COMMIT_MESSAGE" value="CitiesData table and JSON output on webapp are added to screenshot" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="25" key="#Inspections" timestamp="1587327027346">
@@ -236,10 +239,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="288" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1587419152514" />
-    <state x="307" y="0" key="CommitChangelistDialog2" timestamp="1586722983160">
+    <state x="307" y="0" key="CommitChangelistDialog2" timestamp="1587421381022">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="307" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1586722983160" />
+    <state x="307" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1587421381022" />
     <state x="581" y="253" key="DockerComposeFileDialog" timestamp="1587412861518">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -272,10 +275,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="186" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1587417206525" />
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1586723001375">
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1587421412670">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1586723001375" />
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1587421412670" />
     <state x="399" y="14" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1587332007282">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
