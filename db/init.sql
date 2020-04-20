@@ -1,3 +1,14 @@
+--INSERT INTO mysql.user (Host, User, Password) VALUES ('%', 'root', password('root'))
+--GRANT ALL ON *.* TO 'root'@'%' WITH GRANT OPTION;
+
+--SELECT user,authentication_string,plugin,host FROM mysql.user;
+--ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'Current-Root-Password';
+--FLUSH PRIVILEGES
+--SET PASSWORD FOR 'root'@'127.0.0.1' = PASSWORD('root');
+--SET PASSWORD FOR 'root'@'::1' = PASSWORD('root');
+--GRANT ALL ON *.* TO 'root'@'127.0.0.1' WITH GRANT OPTION
+--GRANT ALL ON *.* TO 'root'@'::1' WITH GRANT OPTION
+
 CREATE DATABASE citiesData;
 use citiesData;
 
